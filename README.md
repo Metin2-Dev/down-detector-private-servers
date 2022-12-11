@@ -5,7 +5,10 @@ This will allow us to get rid of the servers that are no longer operational and 
 ## How to use
 [//]: # (Check if the website is down just for you or everyone around the globe.)
 
-Install virtual environment:
+* Install the latest version of [Python](https://www.python.org/downloads/), 3.11 or higher.
+
+
+* Install virtual environment:
 ```bash
 # Install virtualenv
 py -3 -m venv venv
@@ -16,7 +19,7 @@ py -3 -m venv venv
 # Install requirements
 pip install -r requirements.txt
 ```
-Run the script:
+* Run the script:
 ```bash
 py -3 main.py
 ```
