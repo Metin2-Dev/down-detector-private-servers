@@ -13,8 +13,11 @@ This will allow us to get rid of the servers that are no longer operational and 
 # Install virtualenv
 py -3 -m venv venv
 
-# Activate virtualenv
+# Activate virtualenv (Windows)
 ./venv/scripts/activate
+
+# Activate virtualenv (Linux)
+source ./venv/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
