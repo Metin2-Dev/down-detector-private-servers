@@ -59,7 +59,7 @@ pip install -r requirements.txt
 * `--timeout` - Timeout for HTTP requests `default: None` (wait until the request is finished)
 * `--logging` - Enable console output `default = True`
 * `--domain`  - URL of the topic forum's domain ``default = https://forum.metin2.dev/topic/``
-* `--threads` - The maximum number of threads that can be used `default = None` (all available threads)
+* `--threads` - The maximum number of threads that can be used for parallel processing `default = None` (all available threads)
 
 Run the script via the command line:
 
