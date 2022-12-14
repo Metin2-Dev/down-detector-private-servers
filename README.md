@@ -8,7 +8,7 @@ The links are then tested with a `HEAD request` to determine whether or not the 
 This will allow us to get rid of the servers that are no longer operational and tidy up the relevant forum category.\
 Topics without urls will be archived immediately.
 
-<div style="text-align:center"><img src="preview.png" width="728"/></div>
+<div style="text-align:center"><img src="screenshot.png" width="728"/></div>
 
 The output features are still being worked on, but the tool is fully functional:
 1. [x] Quickly generating a graph of the server statistics:
