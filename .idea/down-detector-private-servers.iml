@@ -6,6 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
-    <option name="renderExternalDocumentation" value="true" />
+    <option name="renderExternalDocumentation" value="false" />
   </component>
 </module>

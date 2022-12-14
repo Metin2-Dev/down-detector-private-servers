@@ -8,7 +8,7 @@ The links are then tested with a `HEAD request` to determine whether or not the 
 This will allow us to get rid of the servers that are no longer operational and tidy up the relevant forum category.\
 Topics without urls will be archived immediately.
 
-<div style="text-align:center"><img src="preview.png" width="400"/></div>
+<div style="text-align:center"><img src="preview.png" width="728"/></div>
 
 The output features are still being worked on, but the tool is fully functional:
 1. [x] Quickly generating a graph of the server statistics:
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 * `--output`  - Output path directory `default: ./output`
 * `--exclude` - JSON excluded urls file `default: ignored_urls.json`
 * `--timeout` - Timeout for HTTP requests `default: None` (wait until the request is finished)
-* `--logging` - Enable console output `default = False`
+* `--logging` - Enable console output `default = True`
 * `--domain`  - URL of the topic forum's domain ``default = https://forum.metin2.dev/topic/``
 * `--threads` - The maximum number of threads that can be used `default = None` (all available threads)
 
